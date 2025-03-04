@@ -1,41 +1,23 @@
-# Website
+# 🚀 Crypto Price Tracker
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is a **Next.js** application that displays live cryptocurrency prices using **CoinGecko API**. It includes **Docusaurus documentation** explaining the project structure and implementation details.
 
-### Installation
+---
 
-```
-$ yarn
-```
+## 📌 Features
+✅ Live cryptocurrency prices  
+✅ Search & filter cryptocurrencies  
+✅ Sorting by name and price (ascending & descending)  
+✅ Pagination support  
+✅ Uses **React Query** for caching & API management  
+✅ Responsive design (works on both web & mobile)  
+✅ Error handling & loading indicator  
 
-### Local Development
+---
 
-```
-$ yarn start
-```
+## 📌 Installation & Setup
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/ertnbrk/crypto-tracker.git
+cd crypto-tracker
